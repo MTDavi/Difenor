@@ -1,0 +1,134 @@
+{
+    "Header": {
+
+        "title": "We are a Landing Page",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+
+    },
+    "About": {
+        "paragraph": "DIFENOR® to najnowszej generacji środek biobójczy, będący odpowiedzią na pytanie jak zwalczyć kreta, jak pozbyć się nornicy, karczownika itp, ponieważ posiada skład technologicznie opracowany pod kątem tych właśnie gryzoni.",
+        "Why": [
+            "Lorem ipsum dolor",
+            "Tempor incididunt",
+            "Lorem ipsum dolor",
+            "Incididunt ut labore"
+        ],
+        "Why2": [
+            "Aliquip ex ea commodo",
+            "Lorem ipsum dolor",
+            "Exercitation ullamco",
+            "Lorem ipsum dolor"
+        ]
+    },
+    "Services": [{
+            "icon": "fa fa-wordpress",
+            "name": "Gryzonie ogrodowe",
+            "text": "\"Gryzonie powodują w naszych ogrodach szkody, które często są trudne do oszacowania. To straty związane z zakupem sadzonek roślin, ale przede wszystkim utracony czas, potrzebny do wzrostu kolejnych. \""
+        },
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Dezynsekcja - zwalczanie insektów",
+            "text": "\"Dezynsekcja to tępienie szkodliwych owadów, a także ich jaj i larw. Działania te możemy podzielić pod kątem zastosowanych środków i metod, na metody mechaniczne, biologiczne, fizyczne i chemiczne. Preparaty dezynsekcyjne i ich stężenie dobierane są na podstawie wcześniejszej, precyzyjnej identyfikacji insektów.\""
+        },
+        {
+            "icon": "fa fa-cloud-download",
+            "name": "Deratyzacja",
+            "text": "\"Zwalczanie gryzoni wymagane jest w lokalach użyteczności publicznej, a w szczególności gastronomicznych i magazynach żywności. Zalecenia ustawy 'O utrzymaniu czystości i porządku w gminach' Dz. U. z 1996 Nr 132, poz. 622 z późniejszymi zmianami.\""
+        },
+        {
+            "icon": "fa fa-language",
+            "name": "Ozonowanie",
+            "text": "\"Ozon jest bardzo silnym utleniaczem, dlatego znalazł szerokie zastosowanie w dezynfekcji obiektów takich jak: pomieszczenia szpitalne, biurowe, gastronomicznev, hotele, mieszkania, zakłady produkcyjne.\""
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Consectetur adipiscing",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-plane",
+            "name": "HACCP",
+            "text": "\"Skrót pochodzi od angielskiego określenia (Hazard Analysis and Critical Control Points) co tłumaczymy jako Analiza Zagrożeń i Krytyczne Punkty Kontroli.\""
+        }
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Team": [{
+            "img": "img/team/01.jpg",
+            "name": "John Doe",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Mike Doe",
+            "job": "Senior Designer"
+        }, {
+            "img": "img/team/03.jpg",
+            "name": "Jane Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Karen Doe",
+            "job": "Project Manager"
+        }
+    ],
+    "Contact": {
+        "address": "4321 California St, San Francisco, CA 12345 ",
+        "phone": "+1 123 456 1234",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [{
+            "icon": "fa fa-comments-o",
+            "title": "Bezpieczny dla zwierzat domowych!",
+            "text": "."
+        },
+        {
+            "icon": "fa fa-bullhorn",
+            "title":"Możliwość korzystania i przechowywania w domu!",
+            "text": "."
+        },
+        {
+            "icon": "fa fa-group",
+            "title": "Lorem ipsum",
+            "text": "."
+        },
+        {
+            "icon": "fa fa-magic",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        }
+    ]
+}
