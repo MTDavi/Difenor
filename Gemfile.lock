@@ -1,6 +1,6 @@
 GEM
   remote: https://rubygems.org/
-  specs:
+  specs: 'github-pages'
 
 PLATFORMS
   ruby
