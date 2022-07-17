@@ -64,6 +64,10 @@ hr {
 	margin-bottom: 20px;
 	border: 0;
 }
+/* Gallery */
+#gallery {
+	background-image: url('../img/logoBig.jpeg');
+}
 /* Navigation */
 #menu {
 	padding: 15px;
@@ -141,7 +145,7 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, #5ca9fb 0%, #A0522D 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -155,12 +159,12 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background-color: #8b4513;
+	/*background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);*/
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
-	font-size: 15px;
+	/*font-size: 15px;*/
 	font-weight: 500;
 	border-radius: 25px;
 	transition: all 0.5s linear;
@@ -187,14 +191,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	position: relative;
 	width: 100%;
 	padding: 0;
-	background-color: #e5e5e5;
+	background-image: url('../img/logoBig.jpeg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.2);
+	/*background: rgba(0,0,0,0.2);*/
 }
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
@@ -204,10 +208,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 10px;
+	opacity: 0;
 }
 .intro h1 span {
 	font-weight: 800;
-	color: #5ca9fb;
+	color: #A0522D;
 }
 .intro p {
 	color: #fff;
@@ -216,6 +221,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	line-height: 30px;
 	margin: 0 auto;
 	margin-bottom: 60px;
+	opacity: 0;
 }
 header .intro-text {
 	padding-top: 350px;
@@ -228,10 +234,12 @@ header .intro-text {
 	background: #783c00;
 	color: white;
 }
-#features h2 {
-	color: white !important;
+#features h2{
+	color: white;
 }
-
+#features h3{
+	color: white;
+}
 #features i.fa {
 	font-size: 38px;
 	margin-bottom: 20px;
@@ -243,6 +251,22 @@ header .intro-text {
 	border-radius: 50%;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+/* Difelmark Section */
+#difelmark {
+	padding: 100px 0;
+	background: #783c00;
+}
+
+#difelmark h2 {
+	color:#ffffff;
+	display: flex;
+	justify-content: center;
+}
+#difelmark p {
+	color:#ffffff;
+	display: flex;
+	justify-content: center;
 }
 /* About Section */
 #about {
@@ -285,6 +309,7 @@ header .intro-text {
 	margin-top: 10px;
 	background: #fff;
 	border-right: 0;
+	border-radius: 100px;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
 #about p {
@@ -294,7 +319,8 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	/*background: linear-gradient(to right, #FFFAFA 0%, #A0522D 100%);*/
+	background-color: #684c38;
 	color: #fff;
 }
 #services .service-desc {
@@ -302,6 +328,10 @@ header .intro-text {
 }
 #services h2 {
 	color: #fff;
+}
+
+#services a {
+	color:#fff;
 }
 #services .section-title h2::after {
 	position: absolute;
@@ -323,6 +353,15 @@ header .intro-text {
 	color: #fff;
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
+#services li {
+	/*background-color: hotpink !important;*/
+	color:black;
+	font-size: bold;
+}#services li :focus {
+	/*background-color: hotpink !important;*/
+	color:black;
+	font-size: bold;
+}
 #services h3 {
 	font-weight: 500;
 	padding: 5px 0;
@@ -337,6 +376,11 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
+	background-image: url('../img/Green_Grass.jfif');
+	color:#ffffff;
+}
+#portfolio h2{
+	color:#ffffff;
 }
 .portfolio-item {
 	margin: 1px -15px 0 -14px;
@@ -382,10 +426,10 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: #ffffff;
 }
 #testimonials i {
-	color: #e6e6e6;
+	color: #000000;
 	font-size: 32px;
 	margin-bottom: 20px;
 }
@@ -439,7 +483,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: #783c00;
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
