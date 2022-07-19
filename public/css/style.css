@@ -187,15 +187,19 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Header Section */
 .intro {
-	display: table;
+	/*display: table;*/
+	display:block;
+	min-height: 1200px;
 	position: relative;
-	width: 100%;
+	min-width: 100%;
 	padding: 0;
-	background-image: url('../img/logoBig.jpeg');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+	background-image: url('../img/fullContent.jpg');
+	background-position: center;
+	/*background-size: cover;*/
+	/*-webkit-background-size: cover;*/
+	/*-moz-background-size: cover;*/
+	/*background-size: cover;*/
+	/*-o-background-size: cover;*/
 }
 .intro .overlay {
 	/*background: rgba(0,0,0,0.2);*/
@@ -255,7 +259,8 @@ header .intro-text {
 /* Difelmark Section */
 #difelmark {
 	padding: 100px 0;
-	background: #783c00;
+	/*background: #783c00;*/
+	background-image: url('../img/soilisthekey.jpg');
 }
 
 #difelmark h2 {
@@ -320,7 +325,11 @@ header .intro-text {
 #services {
 	padding: 100px 0;
 	/*background: linear-gradient(to right, #FFFAFA 0%, #A0522D 100%);*/
-	background-color: #684c38;
+	background-image: url('../img/soilisthekey.jpg');
+	/*background-color: #684c38;*/
+	/*background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../img/soilisthekey.jpg');*/
+
+	/*opacity: 0.9;*/
 	color: #fff;
 }
 #services .service-desc {

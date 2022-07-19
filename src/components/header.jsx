@@ -7,7 +7,7 @@ export const Header = (props) => {
         {/*<img src='img/about.jpg' className='img-responsive' alt='' />{' '}*/}
 
         {/*<ParticlesBg type="circle" bg={{zIndex: 0, position:"absolute", top:0}} />*/}
-        <div className='overlay'>
+        {/*<div className='overlay'>*/}
           <div className='container'>
           
             <div className='row'>
@@ -25,7 +25,7 @@ export const Header = (props) => {
                 {/*</a>{' '}*/}
               </div>
             </div>
-          </div>
+          {/*</div>*/}
         </div>
       </div>
     </header>

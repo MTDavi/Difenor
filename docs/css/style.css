@@ -191,7 +191,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	position: relative;
 	width: 100%;
 	padding: 0;
-	background-image: url('../img/logoBig.jpeg');
+	background-image: url('public/img/fullContent.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;

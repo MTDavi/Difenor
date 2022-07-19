@@ -5,7 +5,7 @@ export const About = (props) => {
         <div className='row'>
           <div className='col-xs-12 col-md-6'>
             {' '}
-            <img src='img/DifenorP.png' className='img-DP' alt='' />{' '}
+            <img src='img/box.png' className='img-DP' alt='' />{' '}
           </div>
           <div className='col-xs-12 col-md-6'>
             <div className='about-text'>
