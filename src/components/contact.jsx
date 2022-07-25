@@ -101,15 +101,18 @@ export const Contact = (props) => {
               <h3>Kontakt</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-map-marker'></i> Adres
                 </span>
                 {props.data ? props.data.address : 'loading'}
+                <p>
+                  {props.data ? props.data.home : 'loading'}
+                </p>
               </p>
             </div>
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
+                  <i className='fa fa-phone'></i> Telefon
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
               </p>

@@ -232,6 +232,10 @@ header .intro-text {
 	padding-bottom: 200px;
 	text-align: center;
 }
+header .buttonHeader {
+	position: static;
+	padding-top:20rem;
+}
 /* Features Section */
 #features {
 	padding: 100px 0;

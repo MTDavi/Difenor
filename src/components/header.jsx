@@ -17,16 +17,19 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-                {/*<a*/}
-                {/*  href='#features'*/}
-                {/*  className='btn btn-custom btn-lg page-scroll'*/}
-                {/*>*/}
-                {/*  Dowiedz sie wiecej!*/}
-                {/*</a>{' '}*/}
+                  <div className='buttonHeader'>
+                <a
+                    href='https://allegro.pl/uzytkownik/luckowski'
+                    className='btn btn-custom btn-lg page-scroll'
+                >
+                    Kup teraz na allegro!
+                </a>{' '}
+                  </div>
               </div>
             </div>
           {/*</div>*/}
         </div>
+
       </div>
     </header>
   )
