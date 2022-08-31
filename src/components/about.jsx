@@ -22,9 +22,9 @@ export const About = (props) => {
               {/*  co nie wzbudza nieufności u innych osobników. Preparat zawiera również substancję gorzką - bitrex,*/}
               {/*  która znacząco zmniejsza prawdopodobieństwo spożycia przez zwierzęta domowe lub ptaki.</p>*/}
               <p>Difenor to rodzinna firma założona w 2014 roku. Powstała z konkretnej potrzeby zaopiekowania się własnym ogrodem,
-              sąsiadującym z nieużytkami, łąkami z których sprowadziły się liczne gryzonie, gustujące w korzeniach naszych drzewek i innych roślin. Poszukiwania środka
-              skutecznego na szkodniki, a równoczesnie możliwie najbardziej bezpiecznego dla naszych dowmowych zwierząt, zaprowadziły nas do opracowania produktu, ktory
-              uratował już nie jeden ogród, dom czy plantację. Difenor to środek na gryzownie, który możemy Państwu polecić, bezując na doświadczeniu własnym oraz naszych licznych
+              sąsiadującym z nieużytkami, łąkami, z których sprowadziły się liczne gryzonie, gustujące w korzeniach naszych drzewek i innych roślin. Poszukiwania środka
+              skutecznego na szkodniki, a równoczesnie możliwie najbardziej bezpiecznego dla naszych domowych zwierząt, zaprowadziły nas do opracowania produktu, ktory
+              uratował już niejeden ogród, dom czy plantację. Difenor to środek na gryzonie, który możemy Państwu polecić, bazując na doświadczeniu własnym oraz naszych licznych
               zadowolonych klientów.</p>
               {/*<p>Opakowanie zawiera 450 g produktu, w postaci saszetek z pastą. Są one na tyle duże, że z łatwością możemy podzielić je na trzy - cztery części.*/}
               {/*  Jedno opakowanie umożliwia zlikwidowanie od 60 do nawet 90 gryzoni.</p>*/}

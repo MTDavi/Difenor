@@ -6,7 +6,7 @@ export const Services = (props) => {
         <div className='section-title'>
             <h2>Firma DDD</h2>
             <p>
-                Oferuje profesjonalne usługi w zakresie zwalczania szkodników, oraz zabezpieczenia obiektów przed pojawieniem się ich lub powrotem.
+                Oferuje profesjonalne usługi w zakresie zwalczania szkodników oraz zabezpieczenia obiektów przed pojawieniem się ich lub powrotem.
                 Skuteczność naszych działań to efekt zasady, że każde rozwiązanie jest dobierane indywidualnie do potrzeb Klienta.
             </p>
         </div>
