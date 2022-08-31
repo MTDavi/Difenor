@@ -6,6 +6,7 @@ body, html {
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	overflow-x: hidden;
 }
 h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
@@ -187,20 +188,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Header Section */
 .intro {
-	/*display: table;*/
-	display:block;
-	min-height: 1200px;
-	position: relative;
-	min-width: 100%;
+	display:flex;
 	padding: 0;
-	background-image: url('../img/fullContent.jpg');
-	background-position: center;
-	/*background-size: cover;*/
-	/*-webkit-background-size: cover;*/
-	/*-moz-background-size: cover;*/
-	/*background-size: cover;*/
-	/*-o-background-size: cover;*/
+	background-repeat:no-repeat;
+	background-image: url('../img/Difenor_strona copy.png');
+	background-position: bottom;
+	height: 100%;
+	width: 100%;
+
 }
+
 .intro .overlay {
 	/*background: rgba(0,0,0,0.2);*/
 }
@@ -227,14 +224,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 60px;
 	opacity: 0;
 }
-header .intro-text {
-	padding-top: 350px;
-	padding-bottom: 200px;
-	text-align: center;
-}
+
 header .buttonHeader {
-	position: static;
-	padding-top:20rem;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding-top:703px;
 }
 /* Features Section */
 #features {
@@ -566,6 +561,7 @@ label {
 	-o-transition: none;
 	transition: none;
 }
+
 #contact .form-control:focus {
 	border-color: #999;
 	outline: 0;
@@ -635,12 +631,134 @@ color: #777;
 	border-bottom: 2px solid #608dfd;
 }
 
-@media (max-width: 768px) {
-#about img {
-	margin: 50px 0;
-}
-}
-
 .cursor{
 	cursor: pointer;
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+	/* Styles */
+	#testimonials img{
+		display: none;
+	}
+	#testimonials .buttonHeader {
+		display: flex;
+		justify-content: center;
+	}
+	#difelmark img {
+		width: calc(100% - 50px);
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	#difelmark {
+		padding-left:20px;
+		padding-right:20px;
+	}
+	#contact {
+		padding-left:20px;
+		padding-right:20px;
+	}
+	#contact .btn-custom {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	#about img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	.intro {
+		background-size: contain;
+		background-position: center;
+	}
+	header .buttonHeader {
+
+	}
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px) {
+	#testimonials img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		width: calc(100% - 100px);
+	}
+	#testimonials .buttonHeader {
+		display: none;
+	}
+	#about img {
+		width: 520px;
+		margin-top: 10px;
+		background: #fff;
+		border-right: 0;
+		border-radius: 100px;
+		box-shadow: 0 0 50px rgba(0,0,0,0.06);
+	}
+	header .buttonHeader {
+
+	}
+
+}
+@media only screen
+and (min-width : 769px) and (max-width : 991px) {
+	#difelmark img {
+		width: calc(100% - 300px);
+	}
+}
+@media only screen
+and (min-width : 991px) and (max-width : 1224px) {
+	#difelmark img {
+		width: calc(100% - 20px);
+	}
+	#testimonials img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		width: calc(100% - 200px);
+	}
+	#contact {
+		padding-left:50px;
+		padding-right:50px;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+	#difelmark img {
+		width: calc(100% - 10px);
+	}
+	#testimonials img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		width: calc(100% - 350px);
+	}
+	#contact .btn-custom {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+	#intro {
+		width: auto;
+	}
 }

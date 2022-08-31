@@ -32,19 +32,30 @@ export const Gallery = props => {
   return (
     <div id="portfolio" className="text-center">
       <div className="container">
+      <div className="section-title">
+        <h2>Produkt</h2>
+        <p><b>Difenor</b> to najnowszej generacji środek biobójczy pozwalający pozbyć sie gryzoni, np. nornicym karczownika czy myszy, ponieważ posiada skład
+          technologicznie opracowany pod kątem tych zwierząt.Do tej pory stosowany był wyłącznie przez profesjonalne ekipy DDD.</p><br/>
+        <p><b>Difenor</b> zawiera difenacoum 0,005%. Dzieęki konsystencji pasty z atraktorami(hormonami) wabiącymi środek jest całkowicie skuteczny. Szkodniki po
+        spożyciu preparatu niemal natychmiast padają, a ich zachowanie w trakcie działania trucizny nie wzbudza nieufności u innych osobników. Preparat
+        zawiera również substację gorzką - bitrex, ktoóra znacząco zmniejsza prawdopodobieństwo spożycia go przez zwierzęta domowe lub ptaki. Opakowanie
+        zawiera 450g produktu w postaci saszetek. Są one na tyle duże, że z łatowścią mozżemy podzielić je na 3-4 części. Jedno opakowanie <b>Difenoru</b> umożliwia
+        zlikwidowanie od 60 do 90 gryzoni.</p>
+      </div>
+        </div>
+
+      <div className="container">
         <div className="section-title">
           <h2>Film instruktażowy</h2>
           <p>Na filmie prezentujemy najważniejsze informacje dotyczące środka Difenor oraz sposoby jego użycia.</p>
           <p>Środek Difenor możesz kupić od Producenta przez Allegro!</p>
         </div>
         <div className="row">
-
-                    {/*<video width="320" height="240" src={thumb} className="img-responsive" alt="Project Title" />{" "}*/}
-                    <iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/xGSQw4IM3ZA">
-                    </iframe>
-
-                </div>
+          {/*<video width="320" height="240" src={thumb} className="img-responsive" alt="Project Title" />{" "}*/}
+          <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/xGSQw4IM3ZA">
+          </iframe>
+        </div>
         </div>
       </div>
   );

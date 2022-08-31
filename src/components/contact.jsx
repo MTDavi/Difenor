@@ -22,7 +22,7 @@ export const Contact = (props) => {
     
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_jonth89', 'template_9x55a1k', e.target, 's5l7SResv-mrE03TQ'
       )
       .then(
         (result) => {
@@ -32,7 +32,8 @@ export const Contact = (props) => {
         (error) => {
           console.log(error.text)
         }
-      )
+      );
+    e.target.reset()
   }
   return (
     <div>
@@ -43,7 +44,7 @@ export const Contact = (props) => {
               <div className='section-title'>
                 <h2>Formularz Kontaktowy</h2>
                 <p>
-                  Nie wiesz jak pozbyć się kreta? NAPISZ.
+                  Nie wiesz jak pozbyć się kreta? NAPISZ!
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
@@ -124,29 +125,6 @@ export const Contact = (props) => {
                 </span>{' '}
                 {props.data ? props.data.email : 'loading'}
               </p>
-            </div>
-          </div>
-          <div className='col-md-12'>
-            <div className='row'>
-              <div className='social'>
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
-                      <i className='fa fa-facebook'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className='fa fa-twitter'></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className='fa fa-youtube'></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>
