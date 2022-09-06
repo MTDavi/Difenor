@@ -34,12 +34,12 @@ export const Gallery = props => {
       <div className="container">
       <div className="section-title">
         <h2>Produkt</h2>
-        <p><b>Difenor</b> to najnowszej generacji środek biobójczy pozwalający pozbyć sie gryzoni, np. nornicy karczownika czy myszy, ponieważ posiada skład
+        <p><b>Difenor</b> to najnowszej generacji środek biobójczy pozwalający pozbyć sie gryzoni, np. nornicy, karczownika czy myszy, ponieważ posiada skład
           technologicznie opracowany pod kątem tych zwierząt. Do tej pory stosowany był wyłącznie przez profesjonalne ekipy DDD.</p><br/>
         <p><b>Difenor</b> zawiera difenacoum 0,005%. Dzięki konsystencji pasty z atraktorami (hormonami) wabiącymi środek jest całkowicie skuteczny. Szkodniki po
         spożyciu preparatu niemal natychmiast padają, a ich zachowanie w trakcie działania trucizny nie wzbudza nieufności u innych osobników. Preparat
         zawiera również substację gorzką - bitrex, ktoóra znacząco zmniejsza prawdopodobieństwo spożycia go przez zwierzęta domowe lub ptaki. Opakowanie
-        zawiera 450g produktu w postaci saszetek. Są one na tyle duże, że z łatowścią możemy podzielić je na 3-4 części. Jedno opakowanie <b>Difenoru</b> umożliwia
+        zawiera 450g(3x150g) produktu w postaci saszetek. Są one na tyle duże, że z łatwością możemy podzielić je na 3-4 części. Jedno opakowanie <b>Difenoru</b> umożliwia
         zlikwidowanie od 60 do 90 gryzoni.</p>
       </div>
         </div>

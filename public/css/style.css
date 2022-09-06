@@ -193,7 +193,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-repeat:no-repeat;
 	background-image: url('../img/Difenor_strona copy.png');
 	background-position: bottom;
-	height: 100%;
+	min-height: 100%;
 	width: 100%;
 
 }
@@ -678,11 +678,19 @@ and (min-width : 321px) {
 		background-size: contain;
 		background-position: center;
 	}
-	header .buttonHeader {
-
+	header .btn-custom {
+		position: sticky;
+		/*top:500px;*/
 	}
 }
 
+@media only screen
+and (min-width : 321px) and (max-width : 605px) {
+	header .btn-custom {
+		position: relative;
+		top:250px;
+	}
+}
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen
@@ -705,8 +713,9 @@ and (min-width : 768px) {
 		border-radius: 100px;
 		box-shadow: 0 0 50px rgba(0,0,0,0.06);
 	}
-	header .buttonHeader {
-
+	header .btn-custom {
+		position: relative;
+		top:100px;
 	}
 
 }
@@ -732,6 +741,13 @@ and (min-width : 991px) and (max-width : 1224px) {
 		padding-left:50px;
 		padding-right:50px;
 	}
+	.intro {
+		min-height: 110%;
+	}
+	header .btn-custom {
+		position: relative;
+		top:200px;
+	}
 }
 
 /* Desktops and laptops ----------- */
@@ -753,12 +769,25 @@ and (min-width : 1224px) {
 		margin-right: auto;
 		width: auto;
 	}
+	.intro {
+		min-height: 100%;
+		width: auto;
+	}
 }
 
-/* Large screens ----------- */
+@media only screen
+and (min-width : 1324px) {
+	.intro {
+		min-height: 105%;
+	}
+	header .btn-custom {
+		position: relative;
+		top:300px;
+	}
+}
 @media only screen
 and (min-width : 1824px) {
-	#intro {
-		width: auto;
+	.intro {
+		min-height: 130%;
 	}
 }

@@ -6,12 +6,12 @@ export const Difelmark = (props) => {
                     <div className='col-xs-12 col-md-6'>
                         <div className='about-text'>
                             <h2>DIFELMARK</h2>
-                            <p><b>Oferuje profesjonalne usługi w zakresie zwalczania szkodników, oraz zabezpieczenia obiektów przed pojawieniem się ich lub powrotem.
+                            <p><b>Oferuje profesjonalne usługi w zakresie zwalczania szkodników oraz zabezpieczenia obiektów przed pojawieniem się ich lub powrotem.
                                 Skuteczność naszych działań to efekt zasady, że każde rozwiązanie jest dobierane indywidualnie do potrzeb Klienta.</b></p>
                             <p>
                                 Występowanie szkodników niesie ze sobą poważne zagrożenia dla zdrowia ludzi oraz straty szczególnie w produkcji spożywczej. Dysponujemy zarówno wiedzą, jak i najnowszą technologią pozwalającą na skuteczną i  kompleksową ochronę obiektów i terenów. Podstawową zasadą naszego działania jest założenie, że kontrola i zwalczanie szkodników muszą iść w parze z bezpieczeństwem dla ludzi i środowiska naturalnego. </p>
                             <p>
-                                Działamy zgodnie z wytycznymi systemów GMP (Dobrej Praktyki Produkcyjnej), GHP (Dobrej Praktyki Higienicznej), oraz zaawansowanym systemem HACCP (Analiza Zagrożeń i Krytyczne Punkty Kontrolne), którego zastosowanie ma na celu zapobieganie występowaniu oraz uniemożliwienie dostępu szkodnikom na teren zabezpieczony poprzez ograniczenie warunków, które mogą sprzyjać ich bytowaniu i rozwojowi. </p>
+                                Działamy zgodnie z wytycznymi systemów GMP (Dobrej Praktyki Produkcyjnej), GHP (Dobrej Praktyki Higienicznej) oraz zaawansowanym systemem HACCP (Analiza Zagrożeń i Krytyczne Punkty Kontrolne), którego zastosowanie ma na celu zapobieganie występowaniu oraz uniemożliwienie dostępu szkodnikom na teren zabezpieczony poprzez ograniczenie warunków, które mogą sprzyjać ich bytowaniu i rozwojowi. </p>
                             <p>
                                 Stosujemy środki najlepszych producentów, dostępne jedynie dla firm specjalistycznych, posiadających wszelkie wymagane atesty i certyfikaty.</p>
                             <p><b> Należymy do Polskiego Stowarzyszenia Pracowników DDD. </b></p>
