@@ -229,7 +229,7 @@ header .buttonHeader {
 	display: flex;
 	justify-content: center;
 	margin: auto;
-	padding-top:703px;
+	/*padding-top:703px;*/
 }
 /* Features Section */
 #features {
@@ -742,7 +742,7 @@ and (min-width : 991px) and (max-width : 1224px) {
 		padding-right:50px;
 	}
 	.intro {
-		min-height: 110%;
+		margin-top:40px;
 	}
 	header .btn-custom {
 		position: relative;
@@ -770,15 +770,14 @@ and (min-width : 1224px) {
 		width: auto;
 	}
 	.intro {
-		min-height: 100%;
-		width: auto;
+		margin-top:40px;
 	}
 }
 
 @media only screen
 and (min-width : 1324px) {
 	.intro {
-		min-height: 105%;
+		margin-top:40px;
 	}
 	header .btn-custom {
 		position: relative;
@@ -788,6 +787,6 @@ and (min-width : 1324px) {
 @media only screen
 and (min-width : 1824px) {
 	.intro {
-		min-height: 130%;
+		margin-top:40px;
 	}
 }
