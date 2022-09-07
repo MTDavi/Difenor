@@ -188,14 +188,31 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Header Section */
 .intro {
-	display:flex;
-	padding: 0;
+	padding: 100px 0;
+	/*display:flex;*/
+	/*padding: 0;*/
 	background-repeat:no-repeat;
 	background-image: url('../img/Difenor_strona copy.png');
-	background-position: bottom;
-	min-height: 100%;
+	/*background-position: bottom;*/
+	height: 100%;
 	width: 100%;
+}
+.intro .about-text{
+	height: 200px;
+	margin-top:450px;
+	position: relative;
+	/*border: 3px solid green;*/
 
+}
+
+.intro .buttonHeader {
+	margin: 0;
+	position: absolute;
+	top: 60%;
+	left: 35%;
+	transform: translateY(-50%);
+	width: calc(100% - 50px);
+	/*border: 3px solid red;*/
 }
 
 .intro .overlay {
@@ -225,12 +242,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	opacity: 0;
 }
 
-header .buttonHeader {
-	display: flex;
-	justify-content: center;
-	margin: auto;
-	/*padding-top:703px;*/
-}
+
 /* Features Section */
 #features {
 	padding: 100px 0;
@@ -678,17 +690,21 @@ and (min-width : 321px) {
 		background-size: contain;
 		background-position: center;
 	}
-	header .btn-custom {
-		position: sticky;
-		/*top:500px;*/
+	.intro .buttonHeader {
+		left:20%;
 	}
 }
 
 @media only screen
-and (min-width : 321px) and (max-width : 605px) {
-	header .btn-custom {
-		position: relative;
-		top:250px;
+and (min-width : 321px)  {
+	.intro .buttonHeader {
+		margin: 0;
+		position: absolute;
+		top: 30%;
+		left: 22%;
+		transform: translateY(-50%);
+		width: calc(100% - 50px);
+		/*border: 3px solid red;*/
 	}
 }
 
@@ -713,9 +729,14 @@ and (min-width : 768px) {
 		border-radius: 100px;
 		box-shadow: 0 0 50px rgba(0,0,0,0.06);
 	}
-	header .btn-custom {
-		position: relative;
-		top:100px;
+	.intro .buttonHeader {
+		margin: 0;
+		position: absolute;
+		top: 60%;
+		left: 35%;
+		transform: translateY(-50%);
+		width: calc(100% - 50px);
+		/*border: 3px solid red;*/
 	}
 
 }
@@ -723,6 +744,15 @@ and (min-width : 768px) {
 and (min-width : 769px) and (max-width : 991px) {
 	#difelmark img {
 		width: calc(100% - 300px);
+	}
+	.intro .buttonHeader {
+		margin: 0;
+		position: absolute;
+		top: 30%;
+		left: 25%;
+		transform: translateY(-50%);
+		width: calc(100% - 50px);
+		/*border: 3px solid red;*/
 	}
 }
 @media only screen
@@ -744,9 +774,14 @@ and (min-width : 991px) and (max-width : 1224px) {
 	.intro {
 		margin-top:40px;
 	}
-	header .btn-custom {
-		position: relative;
-		top:200px;
+	.intro .buttonHeader {
+		margin: 0;
+		position: absolute;
+		top: 60%;
+		left: 25%;
+		transform: translateY(-50%);
+		width: calc(100% - 50px);
+		/*border: 3px solid red;*/
 	}
 }
 
@@ -779,10 +814,10 @@ and (min-width : 1324px) {
 	.intro {
 		margin-top:40px;
 	}
-	header .btn-custom {
-		position: relative;
-		top:300px;
-	}
+	/*header .btn-custom {*/
+	/*	position: relative;*/
+	/*	top:300px;*/
+	/*}*/
 }
 @media only screen
 and (min-width : 1824px) {
