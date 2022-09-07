@@ -202,7 +202,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-top:450px;
 	position: relative;
 	/*border: 3px solid green;*/
-
 }
 
 .intro .buttonHeader {
@@ -754,6 +753,13 @@ and (min-width : 769px) and (max-width : 991px) {
 		width: calc(100% - 50px);
 		/*border: 3px solid red;*/
 	}
+	.intro .about-text{
+		height: 200px;
+		margin-top:813px;
+		position: relative;
+		/*border: 3px solid green;*/
+
+	}
 }
 @media only screen
 and (min-width : 991px) and (max-width : 1224px) {
@@ -783,6 +789,13 @@ and (min-width : 991px) and (max-width : 1224px) {
 		width: calc(100% - 50px);
 		/*border: 3px solid red;*/
 	}
+	.intro .about-text{
+		height: 200px;
+		margin-top:850px;
+		position: relative;
+		/*border: 3px solid green;*/
+
+	}
 }
 
 /* Desktops and laptops ----------- */
@@ -806,6 +819,13 @@ and (min-width : 1224px) {
 	}
 	.intro {
 		margin-top:40px;
+	}
+	.intro .about-text{
+		height: 200px;
+		margin-top:850px;
+		position: relative;
+		/*border: 3px solid green;*/
+
 	}
 }
 
