@@ -700,7 +700,7 @@ and (min-width : 321px)  {
 	.intro .buttonHeader {
 		margin: 0;
 		position: absolute;
-		top: 30%;
+		top: 100%;
 		left: 22%;
 		transform: translateY(-50%);
 		width: calc(100% - 50px);
