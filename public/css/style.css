@@ -199,7 +199,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro .about-text{
 	height: 200px;
-	margin-top:450px;
+	/*margin-top:450px;*/
 	position: relative;
 	/*border: 3px solid green;*/
 
