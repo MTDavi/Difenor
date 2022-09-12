@@ -3,7 +3,7 @@ export const Difelmark = (props) => {
         <div id='difelmark'>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-xs-12 col-md-6'>
+                    <div className='col-xs-12 col-md-12'>
                         <div className='about-text'>
                             <h2>DIFELMARK</h2>
                             <p><b>Oferuje profesjonalne usługi w zakresie zwalczania szkodników oraz zabezpieczenia obiektów przed pojawieniem się ich lub powrotem.
@@ -25,10 +25,10 @@ export const Difelmark = (props) => {
                             <br/>
                         </div>
                     </div>
-                    <div className='col-xs-12 col-md-6'>
-                        {' '}
-                        <img src='img/ziemiaDF.jpg' className='img-DP' alt='' />{' '}
-                    </div>
+                    {/*<div className='col-xs-12 col-md-12'>*/}
+                    {/*    {' '}*/}
+                    {/*    <img src='img/ziemiaDF.jpg' className='img-DP' alt='' />{' '}*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </div>

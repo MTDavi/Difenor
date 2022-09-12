@@ -272,17 +272,30 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 100px 0;
 	/*background: #783c00;*/
 	background-image: url('../img/soilisthekey.jpg');
+	z-index: 0;
+}
+#difelmark .container {
+	background-image: url('../img/DifenorLogoWhite25.png');
+	z-index: 99;
+	background-position: center;
+	background-size: 90%;
+	background-repeat: no-repeat;
+}
+#difelmark .row {
+	opacity: 1;
 }
 
 #difelmark h2 {
 	color:#ffffff;
 	display: flex;
 	justify-content: center;
+	font-weight: bold;
 }
 #difelmark p {
 	color:#ffffff;
 	display: flex;
 	justify-content: center;
+	font-weight: bold;
 }
 /* About Section */
 #about {
