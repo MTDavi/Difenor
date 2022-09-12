@@ -27,7 +27,7 @@ export const Difelmark = (props) => {
                     </div>
                     <div className='col-xs-12 col-md-6'>
                         {' '}
-                        <img src='img/DifenorP.png' className='img-DP' alt='' />{' '}
+                        <img src='img/ziemiaDF.jpg' className='img-DP' alt='' />{' '}
                     </div>
                 </div>
             </div>
