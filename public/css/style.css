@@ -783,6 +783,8 @@ and (min-width : 991px) and (max-width : 1224px) {
 	}
 	.intro {
 		margin-top:40px;
+		height: 100%;
+		width: 100%;
 	}
 	.intro .buttonHeader {
 		margin: 0;
@@ -816,6 +818,8 @@ and (min-width : 1224px) {
 	}
 	.intro {
 		margin-top:40px;
+		height: 100%;
+		width: 100%;
 	}
 }
 
@@ -823,6 +827,8 @@ and (min-width : 1224px) {
 and (min-width : 1324px) {
 	.intro {
 		margin-top:40px;
+		height: 100%;
+		width: 100%;
 	}
 	/*header .btn-custom {*/
 	/*	position: relative;*/
@@ -833,5 +839,7 @@ and (min-width : 1324px) {
 and (min-width : 1824px) {
 	.intro {
 		margin-top:40px;
+		height: 100%;
+		width: 100%;
 	}
 }

@@ -18,7 +18,7 @@ export const Testimonials = (props) => {
                     <img src='img/testimonials/1.png'/>
                 </div>
                 <div className="col">
-                    <img src='img/testimonials/3.png'/>
+                    <img src='img/testimonials/10.png'/>
                 </div>
                 <div className="col">
                     <img src='img/testimonials/7.png'/>
