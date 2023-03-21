@@ -7,6 +7,7 @@ import { Services } from './components/services'
 import { Gallery } from './components/gallery'
 import { Testimonials } from './components/testimonials'
 import { Footer } from './components/footer'
+import { BlankPage } from './components/blankPage'
 import { Difelmark } from './components/difelmark'
 import { Contact } from './components/contact.jsx'
 import JsonData from './data/data.json'
@@ -25,16 +26,16 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
+      {/*<Navigation />*/}
+      {/*<Header data={landingPageData.Header} />*/}
+      <BlankPage data={landingPageData.BlankPage} />
       {/*<Features data={landingPageData.Features} />*/}
-      <About data={landingPageData.About} />
-        <Gallery data={landingPageData.Gallery}/>
+      {/*<About data={landingPageData.About} />*/}
+      {/*  <Gallery data={landingPageData.Gallery}/>*/}
         {/*<Services data={landingPageData.Services} />*/}
-        <Difelmark data={landingPageData.Difelmark} />
-      <Testimonials data={landingPageData.Testimonials} />
-
-        <Contact data={landingPageData.Contact} />
+      {/*  <Difelmark data={landingPageData.Difelmark} />*/}
+      {/*<Testimonials data={landingPageData.Testimonials} />*/}
+      {/*  <Contact data={landingPageData.Contact} />*/}
       {/*<Footer />*/}
     </div>
   )
